@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Political Prisoners</title>
+  <style>
+    body{
+      margin:0;
+      background:#000;
+      color:#fff;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    }
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      padding:48px 24px;
+    }
+    h1{
+      font-size:44px;
+      margin:0 0 12px 0;
+      font-weight:800;
+      letter-spacing:0.2px;
+    }
+    p{
+      font-size:18px;
+      line-height:1.55;
+      color:#d7d7d7;
+      max-width:720px;
+      margin:0 0 28px 0;
+    }
+    .cards{
+      display:flex;
+      gap:18px;
+      margin-top:18px;
+      flex-wrap:wrap;
+    }
+    .card{
+      width:320px;
+      height:140px;
+      border:1px solid rgba(255,255,255,0.22);
+      border-radius:14px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-decoration:none;
+      color:#fff;
+      font-size:18px;
+      font-weight:700;
+      transition:transform 0.08s ease, border-color 0.08s ease, background 0.08s ease;
+      background:rgba(255,255,255,0.03);
+    }
+    .card:hover{
+      transform:translateY(-1px);
+      border-color:rgba(255,255,255,0.45);
+      background:rgba(255,255,255,0.06);
+    }
+    .sub{
+      font-weight:600;
+      color:#bdbdbd;
+      font-size:14px;
+      margin-top:6px;
+      text-align:center;
+    }
+    .cardInner{
+      text-align:center;
+      padding:16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Find out more about political prisoners</h1>
+    <p>
+      Ask questions about the lives of political prisoners featured in the archive.
+      If you want to discover who they were, what happened to them, and what they experienced, let’s begin.
+    </p>
+
+    <div class="cards">
+      <a class="card" href="/text.html">
+        <div class="cardInner">
+          Text to Text version
+          <div class="sub">Type your questions</div>
+        </div>
+      </a>
+
+      <a class="card" href="/voice.html">
+        <div class="cardInner">
+          Speech to Speech version
+          <div class="sub">Talk to the avatar</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
