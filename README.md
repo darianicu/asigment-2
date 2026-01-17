@@ -4,44 +4,22 @@
 
 # Overview
 
-# 
-
 # This project is an interactive, web-based conversational avatar that acts as a narrative guide to the lives of former political prisoners. Users can ask questions either through text or voice, and the avatar responds verbally while animating in real time.
-
-# 
 
 # The system is designed as an educational and exploratory tool, allowing users to quickly access historically grounded information while maintaining a human, guided storytelling tone. All answers should be delivered in English (it still needs improvement), even though the source archival materials are written in Romanian.
 
-# 
-
 # The project combines:
-
-# 
-
 * # A 3D animated avatar (Three.js)
 * # Speech-to-text (browser-based)
 * # Text-to-speech (browser-based)
 * # A backend language model that extracts and synthesizes information from archival documents
 
-# 
-
 # Features
-
-# 
-
 * # Two interaction modes
-
-# 
-
 * # Text-to-text (chat interface)
 * # Speech-to-speech (microphone input + spoken avatar output)
 
-# 
-
 # 3D Avatar
-
-# 
-
 * # Real-time jaw and head animation while speaking (this is what I intended, but there was no jaw detected, so it remained only a pulsing animation)
 * # Minimalist black-stage presentation
 
